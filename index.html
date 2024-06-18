@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .scrollercustom::-webkit-scrollbar{
+                  display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+     
+    <div class="cards text-white w-full h-screen bg-zinc-900 font-['Gilroy'] flex flex-row justify-center items-center">
+        <div class="inpandresult">
+            <input class="px-4 py-2 bg-zinc-700 outline-none rounded-md text-lg" type="text" placeholder="filter out names....">
+            <div class="scrollercustom w-full h-52 bg-zinc-900 overflow-y-scroll">
+             
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
